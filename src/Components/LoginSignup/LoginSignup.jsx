@@ -50,6 +50,7 @@ const LoginSignup = ()=>{
                 }else{
                     console.log(`false`);
                     const id = "False";
+                    
                     history("/",{state : {id : id}});
                     setPosition("False");
                 }
